@@ -1,0 +1,10 @@
+<!-- <mat-card class="card" >Simple card</mat-card> -->
+<!-- <button mat-raised-button color="accent">Accent</button> -->
+<mat-toolbar>
+  <button mat-icon-button (click)="goBack()"><mat-icon>arrow_back</mat-icon></button>
+  <span>Color App</span>
+  <a [routerLink]="[ '/vehicle' ]">Goto Vehicle</a>
+  <a [routerLink]="[ '/colors/new' ]">CHOOSE NEW COLOR</a>
+</mat-toolbar>
+<router-outlet></router-outlet>
+

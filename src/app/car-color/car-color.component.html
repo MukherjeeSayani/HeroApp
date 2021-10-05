@@ -1,0 +1,64 @@
+<div class="container">
+  <div class="circle1-background">
+    <div class="circle2-background"></div>
+  </div>
+  <div class="car-container">
+    <div class="car">
+      <div class="car-windshield">
+        <div class="car-windshield in">
+          <div class="pasqyra-content">
+            <div class="bisht-pasqyra"></div>
+             <div class="pasqyra"></div>
+          </div>
+          <div class="kroskot">
+            <div class="k"></div>
+             <div class="k"></div>
+            <div class="timoni">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="car-body-container">
+        <div class="car-body" [ngStyle]="{'background-color': hexValue}">
+          <div class="first-part-car-body">
+            <div class="first-part-car-body inside"></div>
+          </div>
+          <div class="car-lights-content">
+            <div class="car-lights">
+              <div class="lights"></div>
+            </div>
+            <div class="car-lights">
+              <div class="lights"></div>
+            </div>
+          </div>
+          <div class="last-part-body-car">
+            <div class="car-designs1">
+              <div class="car-designs1-child">
+                <div class="last"></div>
+              </div>
+            </div>
+            <div class="car-designs2">
+              <div class="vija"></div>
+              <div class="vija"></div>
+              <div class="vija"></div>
+              <div class="vija"></div>
+              <div class="vija"></div>
+              <div class="vija"></div>
+            </div>
+            <div class="car-designs3">
+              <div class="car-designs3-child">
+                <div class="last"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="car-wheels" [ngStyle]="{'background-color': shadeColor(hexValue, -40) }">
+        <div class="wheels" [ngStyle]="{'background-color': shadeColor(hexValue, -40) }"></div>
+        <div class="between-wheels"></div>
+        <div class="wheels" [ngStyle]="{'background-color': shadeColor(hexValue, -40) }"></div>
+      </div>
+      <div class="car-shadow"></div>
+    </div>
+  </div>
+</div>

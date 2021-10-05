@@ -1,0 +1,5 @@
+<mat-nav-list>
+  <mat-list-item *ngFor="let color of colorData; let i=index" [ngStyle]="{'background-color': color?.hex_value}"
+  (click)="changeCarColor(color)">{{color?.color_name}} - {{color?.hex_value}}</mat-list-item>
+</mat-nav-list>
+<app-my-own-color></app-my-own-color>
